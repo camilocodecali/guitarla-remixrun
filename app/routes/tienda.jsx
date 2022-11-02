@@ -9,9 +9,6 @@ export async function loader(){
 
 function Tienda() {
   const guitarras = useLoaderData()
-
-
-
   return (
     <main className='contenedor'>
         <h2 className='heading'>Nuestra Colección</h2>
@@ -20,7 +17,7 @@ function Tienda() {
             {guitarras.map( guitarra =>(
                 <Guitarra 
                   key={guitarra?.id}
-                  guitarra={guitarra?.atributes}
+                  guitarra={guitarra?.attributes}
                 /> 
             ))}
           </div>

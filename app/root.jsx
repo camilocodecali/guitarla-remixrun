@@ -63,8 +63,8 @@ function Document({children}){
     return (
         <html lang="es">
             <head>
-                <Meta></Meta>
-                <Links></Links>
+                <Meta />
+                <Links />
             </head>
             <body>
                 <Header />
