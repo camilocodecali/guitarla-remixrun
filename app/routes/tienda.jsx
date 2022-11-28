@@ -30,7 +30,7 @@ function Tienda() {
   return (
     <main className='contenedor'>
         <h2 className='heading'>Nuestra Colección</h2>
-        {guitarras.length && (
+        {guitarras?.length && (
           <div className='guitarras-grid'>
             {guitarras.map( guitarra =>(
                 <Guitarra 
