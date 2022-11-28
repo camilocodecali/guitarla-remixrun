@@ -49,7 +49,7 @@ function Guitarra() {
   return (
     <main className='contenedor guitarra'>
       <img className='imagen' src={imagen.data.attributes.url} alt={`imagen de la guitarra ${nombre}`} />
-      <div className="contanido">
+      <div className="contenido">
         <h3>{nombre}</h3>
         <p className='texto'>{descripcion}</p>
         <p className='precio'>${precio}</p>
